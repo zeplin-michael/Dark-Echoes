@@ -1,0 +1,25 @@
+.episodeList h2 {
+  margin: 0px 0px 10px;
+}
+
+.episodeList ul {
+  display: grid;
+
+  list-style-type: none;
+  padding: 0.25rem;
+}
+
+.episodeList li {
+  padding: 1.5ch;
+  transition: 0.5s;
+}
+
+.episodeList li:hover {
+  background-color: rgb(80, 80, 80);
+  font-size: 20px;
+}
+
+li:not(:last-child) {
+  border-bottom: 1px solid;
+  border-color: rgb(80, 80, 80);
+}
